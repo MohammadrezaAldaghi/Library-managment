@@ -16,6 +16,7 @@ void User::SetUserAttribute()
     jsonObj["Birthday"] = Birthday;
     jsonObj["Followers"] = Followers;
     jsonObj["Followings"] = Followings;
+    jsonObj["Name"] = Name;
 
     QJsonDocument jsonDoc(jsonObj);
 
@@ -78,5 +79,10 @@ void User::SetFollowings()
 void User::SetFollowers()
 {
     Followers = 0;
+}
+
+void User::SetName(QString name)
+{
+    Name = name;
 }
 

@@ -20,7 +20,7 @@ public:
     void SetPassword(QString password);
     void SetFollowings();
     void SetFollowers();
-
+    void SetName(QString name);
 
 protected:
     QString Username;
@@ -31,7 +31,7 @@ protected:
     int Followings;
     int Followers;
     QString ColorHeader;
-
+    QString Name;
 
 };
 

@@ -22,6 +22,7 @@ void SignUp::on_RegisterButton_clicked()
     currnetUser->SetPassword(ui->PasswordLineEdit->text());
     currnetUser->SetPhoneNember(ui->PhoneNemberLineEdit->text());
     currnetUser->SetContry(ui->CountryLineEdit->text());
+    currnetUser->SetName(ui->NameLineEdit->text());
     currnetUser->SetFollowers();
     currnetUser->SetFollowings();
     currnetUser->SetUserAttribute();
